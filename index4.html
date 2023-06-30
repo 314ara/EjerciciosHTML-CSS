@@ -35,11 +35,11 @@
                 <div class="texto3">CHOCOLATE</div>
                 <div class="texto4">VAINILLA</div>
             </div>
-    
+
         <div class="carrito" id="addToCartBtn">
             <i class="fas fa-shopping-cart"></i>
             <span class="carrito-texto">Añadir al carrito</span>
-        </div>
+          </div>
        
         </div>
          
@@ -47,11 +47,12 @@
 
     <script>
         const addToCartBtn = document.getElementById('addToCartBtn');
-
         addToCartBtn.addEventListener('click', function() {
-            // Aquí puedes agregar la lógica para añadir el producto al carrito
-            alert('Producto añadido al carrito');
-        });
+            addToCartBtn.classList.add('clicked'); // Agregar la clase 'clicked' al botón
+});
+
+        
+
     </script>
 </body>
 <footer> Para mas sabores <a href=""> haz click aquí</a> </footer>

@@ -166,6 +166,9 @@ h3{
     top: 500px;
     right: 640px;
   }
+  .carrito.clicked {
+    background-color: rgb(142, 48, 1); /* Color del botón al hacer clic */
+  }
   
   .carrito i {
     margin-right: 10px;
